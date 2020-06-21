@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Platform, StatusBar, View } from 'react-native';
-import BackgroundImage from './src/BackgroundImage';
+import DemoOnLayout from './src/DemoOnLayout';
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
             : 0,
       }}
     >
-      <BackgroundImage />
+      <DemoOnLayout />
     </View>
   );
 }
