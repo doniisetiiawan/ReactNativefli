@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import DemoComponent from './src/DemoComponent';
+import ButtonStyles from './src/ButtonStyles';
 
 export default function App() {
-  return <DemoComponent />;
+  return <ButtonStyles />;
 }
